@@ -13,7 +13,8 @@
 \usepackage[utf8]{inputenc}
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.75, top=1cm, left=2cm, right=2cm, bottom=1.25cm]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
 
 \usepackage{ifxetex,ifluatex}
 \newif\ifxetexorluatex
@@ -60,12 +61,14 @@
 %\extrainfo{\octocat~\url{http://github.com/raphink}}
 %TODO fare foto!!!!
 %\photo[64pt]{identity}
-\social[twitter]{@vinnes}
+%\social[twitter]{@vinnes}
 
 
-\AtBeginDocument{\renewcommand{\labelitemi}{-- }}
+\AtBeginDocument{\renewcommand{\labelitemi}{-- }
+  %\hypersetup{colorlinks,urlcolor=blue}
+}
 
-\usepackage[firstyear=1998,lastyear=2015]{moderntimeline}
+\usepackage[firstyear=1992,lastyear=2015]{moderntimeline}
 %\tlmaxdates{1999}{2012}
 \tlwidth{0.8ex}
 
@@ -87,9 +90,11 @@
     }}%
 
 
-% Refine quote 
+% Redefine quote 
+\definecolor{dark-gray}{gray}{0.30}
+
 \newcommand*{\myquote}[2]{%
-   \quote{\itshape #1 \\ \scshape \footnotesize #2}}
+   \quote{\small\raggedright\color{dark-gray}\itshape #1 \\ \footnotesize #2}}
 
 % Hobbies
 \newcommand*{\cvhobby}[2]{\cvline{#1}{\small #2}}
