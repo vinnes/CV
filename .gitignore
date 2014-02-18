@@ -1,0 +1,10 @@
+#ignoro i file intermedi di LaTeX (preso da http://www.guitex.org/home/images/doc/GuideGuIT/guidagit.pdf)
+*. log
+*. pdf
+*. blg
+*. bbl
+*. aux
+* - blx . bib
+*. out
+#ignoro i file di backup
+*.backup
