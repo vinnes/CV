@@ -50,7 +50,7 @@
 \title{Curriculum Vit\ae}
 
 \extrainfo{%
-  Nato a Brindisi il 26/11/1973}
+  nato a Brindisi il 26/11/1973}
 %\linkedin~\httplink{www.linkedin.com/in/vinnes}\\%
 %\octocat~\httplink{www.github.com/vinnes}\\}
 
@@ -65,7 +65,9 @@
 %\setsansfont{Myriad Pro}
 
 \hyphenpenalty=10000
+
 \maketitle
+
 % \section{Capacità e competenze}
 % 
 % \subsection{Capacit\`a professionali}
@@ -104,9 +106,28 @@
 % Center labels and use "Since"
 %\tltextstart[base]{\scriptsize}
 %\tltextend[base]{\scriptsize}
-%\tlsince{Since~}
+\tlsince{dal }
 
-\tlcventry{2013}{0}{Certificatore Energetico}{\href{http://www.firenzenergia.it/}{Agenzia Fiorentina per l'Energia}}{Firenze}{}{Stage previsto dal corso di certificatore energetico presso l'A.S.E.V.
+%oppure cambio i putni di ancoraggio
+%questo mi serve per spostare in basso la data iniziale per evitare che finisca sulla barra
+\renewcommand{\tltextstart}[2][south west]{%
+   \tikzset{
+       tl@startyear/.style={
+           font=#2,
+           name=tl@startyear,
+           below=1pt, % it was null
+           inner xsep=0pt,
+           anchor=#1,
+       }
+   }
+}
+%set the anchor as you prefer
+\tltextstart[north]{\scriptsize}
+\tltextend[south]{\scriptsize} 
+%--------
+
+
+\tlcventry{2013}{0}{Certificatore Energetico}{\href{http://www.firenzenergia.it/}{Agenzia Fiorentina per l'Energia}}{Firenze}{}{Durante lo stage previsto dal corso CERT.E. di certificatore energetico organizzato da A.S.E.V.:
 \begin{tightitemize}
  \item Collaborazione al progetto europeo \href{http://www.serpente-project.eu}{SERPENTE} (Surpassing Energy Targets through Efficient Public
 Buildings);
