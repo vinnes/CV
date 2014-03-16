@@ -52,6 +52,9 @@
 };%
 \end{tikzpicture}}}
 
+% Dummy text
+\usepackage{lipsum}
+
 % personal data
 \firstname{Vincenzo}
 \familyname{Nesta}
@@ -62,14 +65,26 @@
 \email{vincenzo.nesta@gmail.com}
 %\homepage{www.raphink.info}
 %\extrainfo{\octocat~\url{http://github.com/raphink}}
-%TODO fare foto!!!!
+%uncomment following line if photo is needed!
 %\photo[64pt]{identity}
 %\social[twitter]{@vinnes}
 
 
 \AtBeginDocument{\renewcommand{\labelitemi}{-- }
-  %\hypersetup{colorlinks,urlcolor=blue}
+    \hypersetup{
+    colorlinks,
+    urlcolor=blue,
+    pdfinfo={
+		Title={Curriculum vit\ae},
+		Author={Vincenzo Nesta},
+		Subject={Curriculum esteso di Vincenzo Nesta},
+		Keywords={curriculum, lavoro, Vincenzo Nesta, resumè, job, work},
+%		Producer={TeXShop}
+%		% ...
+		}
+	}
 }
+
 
 \usepackage[firstyear=1992,lastyear=2015]{moderntimeline}
 %\tlmaxdates{1999}{2012}

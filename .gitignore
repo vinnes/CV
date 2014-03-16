@@ -6,5 +6,6 @@
 *. aux
 * - blx . bib
 *. out
+*~
 #ignoro i file di backup
 *.backup
