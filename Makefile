@@ -1,8 +1,8 @@
 all: pdf html
 
-pdf: VincenzoNesta_it.pdf VincenzoNesta_en.pdf
+pdf: VincenzoNesta_it.pdf 
 
-html: VincenzoNesta_it.html VincenzoNesta_en.html
+html: VincenzoNesta_it.html 
 
 itacv: VincenzoNesta_it.pdf
 engcv: VincenzoNesta_en.pdf
