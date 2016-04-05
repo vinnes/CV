@@ -16,9 +16,12 @@
 \usepackage[italian]{babel}
 
 %fontawesome definition
-%\usepackage{fontawesome}
+\usepackage{fontawesome}
 %\newfontfamily{\FA}{FontAwesome Regular}
 %\def\twitter{{\FA \faTwitter}}
+
+%stile icone (awesome, marvosym (vecchie), lettere)
+\moderncvicons{awesome}
 
 \linespread{0.9}
 
@@ -34,8 +37,8 @@
 \title{Curriculum Vit\ae}
 
 \extrainfo{%
-  nato a Brindisi il 26/11/1973}
-%\linkedin~\httplink{www.linkedin.com/in/vinnes}\\%
+%\linkedin~\httplink{www.linkedin.com/in/vinnes}\\
+nato a Brindisi il 26/11/1973}%
 %\octocat~\httplink{www.github.com/vinnes}\\}
 
 %citazione
@@ -51,6 +54,10 @@
 \hyphenpenalty=10000
 
 \maketitle
+
+%rimuovere i numeri di pagina
+\thispagestyle{empty}
+\pagestyle{empty}
 
 
 \section{Esperienze professionali}
@@ -79,7 +86,7 @@
 %--------
 
 
-\tlcventry{2013}{0}{Certificatore Energetico}{\href{http://www.firenzenergia.it/}{Agenzia Fiorentina per l'Energia}}{Firenze}{}{Durante lo stage previsto dal corso CERT.E. di certificatore energetico organizzato da A.S.E.V.:
+\tlcventry{2013}{0}{Tecnico del Risparmio Energetico}{\href{http://www.firenzenergia.it/}{Agenzia Fiorentina per l'Energia}}{Firenze}{}{Durante lo stage previsto dal corso CERT.E. di certificatore energetico organizzato da A.S.E.V.:
 \begin{tightitemize}
  \item Collaborazione al progetto europeo \href{http://www.serpente-project.eu}{SERPENTE} (Surpassing Energy Targets through Efficient Public
 Buildings);
@@ -127,7 +134,7 @@ Buildings);
  \item Progettazione, preventivazione e successiva gestione del parco hardware e software delle rete di computer degli uffici. 
 \end{tightitemize}}
 
- \tlcventry{1998}{1999}{Disegnatore CAD}{STIGEA Cooperativa a r.l.}{L'Aquila}{}{Prestazioni occasionali nella socie\`a operante nel settore dei lavori stradali per l'ampliamento della s.s. n. 7 Brindisi-Taranto - III lotto:
+ \tlcventry{1998}{1999}{Disegnatore CAD}{STIGEA Cooperativa a r.l.}{L'Aquila}{}{Prestazioni occasionali nella societ\`a operante nel settore dei lavori stradali per l'ampliamento della s.s. n. 7 Brindisi-Taranto - III lotto:
 \begin{tightitemize}%
  \item Rilievi topografici, restituzione su CAD, inserimento e sviluppo delle misure per la redazione della contabilit\`a e dei relativi allegati; 
 \end{tightitemize}}
@@ -162,6 +169,8 @@ Buildings);
 \tlcventry{1992}{1996}{Studente in Ingegneria Edile}{\href{http://www.poliba.it/}{Politecnico}}{Bari}{}{Frequenza di quindici corsi del Corso di Laurea, di cui undici superati gli esami con votazione media 28/30.}
  
 \section{Certificazioni}
+
+\tldatecventry{2014}{Esami di Stato per l'abilitazione all'esercizio della libera professione}{Istituto Statale per Geometri e Ragionieri ``Salvemini - Duca d'Aosta''}{Firenze}{}{Votazione 74/100.}
 
 \tldatecventry{2013}{Tecnico della progettazione ed elaborazione di sistemi di risparmio energetico}{\href{http://www.asev.it/formazione/archivio/certe.php}{ASEV}}{Empoli (FI)}{}{ADA \#1: Attivit\`a di monitoraggio delle strutture esistenti.}
 
@@ -199,11 +208,13 @@ Buildings);
 %\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
 
 %informazione estese prese da capacita-competenze.text
-\input{capacita-competenze}
+%commentare per avere il curriculum sintetico
+%\input{capacita-competenze}
 
 
-%liberatoria privac
-%\tiny\vspace{\fill}
+%liberatoria privacy
+%de-commentare la seguente riga nel curriculum sintetico
+\tiny\vspace{\fill}
 \footnotesize\noindent\centering
 Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003.
 %\vspace*{0.25cm}
