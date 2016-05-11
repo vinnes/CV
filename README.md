@@ -2,7 +2,7 @@
 
 This is a repository that contains my up-to-date CV in LaTeX.
 
-You can find the live versions of the CV on http://cv.raphink.info
+You can find the live versions of the CV on http://vinnes.github.io/CV
 
 # How to build
 
@@ -15,9 +15,9 @@ To build all the versions (PDF and HTML), type `make`.
 
 In order to build the PDF versions of this CV, you will need:
 
-   * A LaTeX distribution (TeXLive 2012 recommended);
+   * A LaTeX distribution;
    * LuaTeX;
-   * MinionPro and MyriadPro fonts (you can find them with Acrobat Reader).
+   * (optional) MinionPro and MyriadPro fonts (you can find them with Acrobat Reader).
 
 To build the PDF CVs, type `make pdf`.
 
@@ -33,7 +33,7 @@ In order to use the Octicons font, you will need to install this font. You can f
 
 # About the `gh-pages` branch
 
-This project has a `gh-pages` branch hosting the http://cv.raphink.info.
+This project has a `gh-pages` branch hosting the http://vinnes.github.io/CV.
 
 The `gh-pages` branch contains a simple static HTML page and the HTML CV files generated from `pdf2htmlex`.
 
