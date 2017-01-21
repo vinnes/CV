@@ -5,15 +5,24 @@
 
 \RequirePackage{metalogo}
 
-% moderncv themes
+% moderncv themes (only classic work in TexLive 2016, other are casual, banking and oldstyle)
 \moderncvtheme[orange]{classic} % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-%\moderncvtheme[green]{casual}   % idem
+
+% character encoding
+\usepackage[T1]{fontenc}
+
+%colors
+\RequirePackage{xcolor}
+\definecolor{customblue}{HTML}{2874B2}
 
 %fonts
 \usepackage{MnSymbol}
-
-% character encoding
-\usepackage[utf8]{inputenc}
+%fontawesome icons definition
+\usepackage{fontawesome}
+%custom color
+\newfontfamily{\FAb}[Color=customblue]{FontAwesome}
+\def\twitter{{\FAb \faTwitter}}
+\def\telegram{{\FAb \faPaperPlaneO}}
 
 % adjust the page margins
 \usepackage[scale=0.75, top=1cm, left=2cm, right=2cm, bottom=1.25cm]{geometry}
@@ -53,40 +62,41 @@
 \end{tikzpicture}}}
 
 % Dummy text
-\usepackage{lipsum}
+%\usepackage{lipsum}
 
 % personal data
 \firstname{Vincenzo}
 \familyname{Nesta}
-\address{via del Porto, 35}{50053 Empoli (FI)}
-\mobile{349 80 20 903}
+\address{via del Porto, 35 - 50053 Empoli (FI)}
+\mobile{349/8020903}
 %\phone{0571 18 32 313}
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
 \email{vincenzo.nesta@gmail.com}
-%\homepage{www.raphink.info}
-%\extrainfo{\octocat~\url{http://github.com/raphink}}
+%\homepage{www.vinnes.info}
+%\extrainfo{\octocat~\url{http://github.com/vinnes}}
 %uncomment following line if photo is needed!
 %\photo[64pt]{identity}
 %\social[twitter]{@vinnes}
 
 
 \AtBeginDocument{\renewcommand{\labelitemi}{-- }
-    \hypersetup{
-    colorlinks,
+
+\hypersetup{
+    colorlinks=true,
     urlcolor=blue,
     pdfinfo={
 		Title={Curriculum vit\ae},
 		Author={Vincenzo Nesta},
-		Subject={Curriculum esteso di Vincenzo Nesta},
+		Subject={Curriculum di Vincenzo Nesta},
 		Keywords={curriculum, lavoro, Vincenzo Nesta, resum\'è, job, work},
-%		Producer={TeXShop}
+		Producer={TeXworks v0.6.1}
 %		% ...
 		}
 	}
 }
 
 
-\usepackage[firstyear=1992,lastyear=2015]{moderntimeline}
+\usepackage[firstyear=1992,lastyear=2017]{moderntimeline}
 %\tlmaxdates{1999}{2012}
 \tlwidth{0.8ex}
 

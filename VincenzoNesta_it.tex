@@ -1,28 +1,24 @@
-%% start of file `template.tex'.
+%% start of file `VincenzoNesta_it.tex'.
 %% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Forked in 2014 from github repository https://github.com/raphink/CV  - Raphaël Pinson (raphink@gmail.com).
+%% Modified in 2017 by Vincenzo Nesta (vincenzo.nesta@gmail.com).
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-% Version: 20110122-4
+% Version: 20170120-1
 
-
+%tipo documento
 \documentclass[11pt,a4paper]{moderncv}
 
+%stili, macro e opzioni personalizzate
 \usepackage{VincenzoNesta}
 
-\usepackage[T1]{fontenc}
+%lingua
 \usepackage[italian]{babel}
 
-%fontawesome definition
-\usepackage{fontawesome}
-%\newfontfamily{\FA}{FontAwesome Regular}
-%\def\twitter{{\FA \faTwitter}}
-
-%stile icone (awesome, marvosym (vecchie), lettere)
-\moderncvicons{awesome}
-
+%interlinea
 \linespread{0.9}
 
 % for some reason, lines take up a lot of space in itemize in English...
@@ -37,19 +33,25 @@
 \title{Curriculum Vit\ae}
 
 \extrainfo{%
-%\linkedin~\httplink{www.linkedin.com/in/vinnes}\\
+\twitter~\httplink{www.twitter.com/vinnes}\\
+\telegram~\httplink{t.me/vinnes73}\\
+\faLinkedinSquare~\httplink{www.linkedin.com/in/vinnes}\\
+%\faGithub~\httplink{www.github.com/vinnes}\\
 nato a Brindisi il 26/11/1973}%
-%\octocat~\httplink{www.github.com/vinnes}\\}
+
 
 %citazione
-%\myquote{\ldots l'aggetto delle cornici sbalzerà di la dal piombo le gocce, e con questo riguardo si verranno a mantenere salde le muraglie di mattoni}{M. Vitruvio Pollione - \itshape De Architectura}
+%\myquote{\ldots l'aggetto delle cornici sbalzerà di la dal piombo le gocce, e con questo riguardo si verranno a mantenere salde le muraglie di mattoni.}{M. Vitruvio Pollione - \itshape De Architectura}
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
+
+%%Set fonts
 %\setmainfont{Minion Pro}
-%\setsansfont{Myriad Pro}
+\setsansfont{Myriad Pro}
 
 \hyphenpenalty=10000
 
@@ -166,7 +168,7 @@ Buildings);
 
 \tldatecventry{2009}{Corso di formazione teorico-pratico per addetti al primo soccorso}{Comitato Tecnico Paritetico della Toscana}{Montelupo F.no (FI)}{}{}
 
-\tlcventry{1992}{1996}{Studente in Ingegneria Edile}{\href{http://www.poliba.it/}{Politecnico}}{Bari}{}{Frequenza di quindici corsi del Corso di Laurea, di cui undici superati gli esami con votazione media 28/30.}
+\tlcventry{1992}{1996}{Studente in Ingegneria Edile}{\href{http://www.poliba.it/}{Politecnico}}{Bari}{}{Frequenza di quindici corsi del Corso di Laurea, di cui undici superati gli esami.\\Votazione media 28/30.}
  
 \section{Certificazioni}
 
@@ -216,7 +218,7 @@ Buildings);
 %de-commentare la seguente riga nel curriculum sintetico
 \tiny\vspace{\fill}
 \footnotesize\noindent\centering
-Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003.
+Autorizzo il trattamento dei dati personali ai sensi del D.Lgs. 196/2003.
 %\vspace*{0.25cm}
 
 Empoli, \today\hfill  In fede:\raisebox{-0.75cm}{\includegraphics[scale=1]{firma}}
