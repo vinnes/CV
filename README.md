@@ -16,7 +16,7 @@ To build all the versions (PDF and HTML), type `make`.
 In order to build the PDF versions of this CV, you will need:
 
    * A LaTeX distribution;
-   * LuaTeX;
+   * XeLaTeX;
    * (optional) MinionPro and MyriadPro fonts (you can find them with Acrobat Reader).
 
 To build the PDF CVs, type `make pdf`.
@@ -27,9 +27,10 @@ To build the PDF CVs, type `make pdf`.
 The HTML version of this CV is generated from the PDF version, using [pdf2htmlex](https://github.com/coolwanglu/pdf2htmlEX). Once you have `pdf2htmlex` in your `PATH`, type `make html` to build the files.
 
 
-## Using octicons
+## Using FontAwesome icons
 
-In order to use the Octicons font, you will need to install this font. You can find it here: https://github.com/geniusgithub/github-android/raw/master/assets/octicons-regular-webfont.ttf
+In order to use the FontAwesome icons, you will need to install this font. To enable the icons in XeLatex, type `(sudo) tlmgr install fontawesome`.
+
 
 # About the `gh-pages` branch
 

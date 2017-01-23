@@ -1,8 +1,13 @@
+LANGS= it en
+TARGETS=$(addprefix VincenzoNesta_,$(LANGS))
+PDF_TARGETS=$(addsuffix .pdf,$(TARGETS))
+HTML_TARGETS=$(addsuffix .html,$(TARGETS))
+
 all: pdf html
 
-pdf: VincenzoNesta_it.pdf 
+pdf: $(PDF_TARGETS) 
 
-html: VincenzoNesta_it.html 
+html: $(HTML_TARGETS) 
 
 itacv: VincenzoNesta_it.pdf
 engcv: VincenzoNesta_en.pdf

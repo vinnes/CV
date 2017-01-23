@@ -1,31 +1,47 @@
 \ProvidesPackage{VincenzoNesta}
 
-%hyperlinks (non c'\`e bisogno di caricarlo nuovamente)
-%\RequirePackage{hyperref}
-
 \RequirePackage{metalogo}
 
-% moderncv themes (only classic work in TexLive 2016, other are casual, banking and oldstyle)
-\moderncvtheme[orange]{classic} % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+% moderncv themes (only classic work in TexLive 2016, other are casual (where are personal info?)
+%(banking and oldstyle not working for me!))
+\moderncvtheme[orange]{classic}
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 
-% character encoding
-\usepackage[T1]{fontenc}
+%use fontawesome icons for social section of moderncv
+\moderncvicons{awesome}
+
+%customize moderncv icons
+%\renewcommand*{\addresssymbol}       {}
+\renewcommand*{\mobilephonesymbol}   {\faPhoneSquare~~} % alternative: \faMobilePhone
+%\renewcommand*{\fixedphonesymbol}    {\faPhone~~}
+%\renewcommand*{\faxphonesymbol}      {\faPrint~~}              % alternative: \faFileAlt
+\renewcommand*{\emailsymbol}         {\faEnvelopeSquare~~}           % alternative: \faInbox
+%\renewcommand*{\homepagesymbol}      {\faGlobe~~}              % alternative: \faHome
+\renewcommand*{\linkedinsocialsymbol}{\faLinkedinSquare~~}       % alternative: \faLinkedin
+\renewcommand*{\twittersocialsymbol} {\faTwitterSquare~~}		% alternative: \faTwitter
+\renewcommand*{\githubsocialsymbol}  {\faGithubSquare~~}
+
+% character encoding (ther's a problem with fonts with this enabled!! maybe is loaded from xelatex by default? )
+%\usepackage[T1]{fontenc}
 
 %colors
 \RequirePackage{xcolor}
-\definecolor{customblue}{HTML}{2874B2}
+\definecolor{customblu}{HTML}{2874B2}
 
 %fonts
-\usepackage{MnSymbol}
+%\usepackage{MnSymbol}
 %fontawesome icons definition
 \usepackage{fontawesome}
-%custom color
-\newfontfamily{\FAb}[Color=customblue]{FontAwesome}
-\def\twitter{{\FAb \faTwitter}}
-\def\telegram{{\FAb \faPaperPlaneO}}
+\newfontfamily{\FA}{FontAwesome}
+\def\twitter{{\FA \faTwitter}}
+\def\telegram{{\FA \faPaperPlaneO}}
+\def\linkedin{{\FA \faLinkedinSquare}}
+\def\mailto{{\FA \faEnvelopeSquare}}
+\def\github{{\FA \faGithubSquare}}
 
-% adjust the page margins
-\usepackage[scale=0.75, top=1cm, left=2cm, right=2cm, bottom=1.25cm]{geometry}
+% adjust the page margins (maybe 0.8 is better for fonts?)
+%\usepackage[scale=0.75, top=1cm, left=2cm, right=2cm, bottom=1.25cm]{geometry}
+\usepackage[scale=0.8, top=1cm, left=1.8cm, right=1.8cm, bottom=1.25cm]{geometry}
 \recomputelengths                             % required when changes are made to page layout lengths
 
 \usepackage{ifxetex,ifluatex}
@@ -43,61 +59,58 @@
 \ifxetexorluatex
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures=TeX}
-\newfontfamily{\githubfont}{Octicons}
-\newfontfamily{\linkedinfont}{Myriad Pro}
-\else
-\newcommand\githubfont{}
-\newcommand\linkedinfont{}
+%\newfontfamily{\githubfont}{Octicons}
+%\newfontfamily{\linkedinfont}{Myriad Pro}
+%\else
+%\newcommand\githubfont{}
+%\newcommand\linkedinfont{}
 \fi
 
 \usepackage{microtype}
-
-\newcommand\octocat{{\githubfont\char"F209}}
-\newcommand\linkedin{%
-\scalebox{0.7}{%
-\begin{tikzpicture}[baseline]%
-\node[fill=color2,rounded corners=2pt,anchor=base] {%
-\linkedinfont\bfseries\upshape\color{white}{in}%
-};%
-\end{tikzpicture}}}
 
 % Dummy text
 %\usepackage{lipsum}
 
 % personal data
 \firstname{Vincenzo}
-\familyname{Nesta}
-\address{via del Porto, 35 - 50053 Empoli (FI)}
-\mobile{349/8020903}
+\familyname{NESTA}
+\email{vincenzo.nesta@gmail.com}
+\mobile{+39 (0) 349 8020903}
+\address{\href{https://www.google.it/maps/place/Via+del+Porto,+35,+50053+Empoli+FI/@43.7255449,10.8878953,17}{\faMapMarker}~~via del Porto, 35 - 50053 Empoli (FI)}
 %\phone{0571 18 32 313}
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
-\email{vincenzo.nesta@gmail.com}
 %\homepage{www.vinnes.info}
-%\extrainfo{\octocat~\url{http://github.com/vinnes}}
 %uncomment following line if photo is needed!
 %\photo[64pt]{identity}
+%\social[linkedin]{vinnes}
+%\social[github]{vinnes}
 %\social[twitter]{@vinnes}
 
 
 \AtBeginDocument{\renewcommand{\labelitemi}{-- }
 
 \hypersetup{
-    colorlinks=true,
-    urlcolor=blue,
-    pdfinfo={
+	colorlinks=true,
+    	urlcolor=customblu,
+    	pdfinfo={
 		Title={Curriculum vit\ae},
 		Author={Vincenzo Nesta},
 		Subject={Curriculum di Vincenzo Nesta},
 		Keywords={curriculum, lavoro, Vincenzo Nesta, resum\'è, job, work},
 		Producer={TeXworks v0.6.1}
-%		% ...
-		}
+		},
+	bookmarksnumbered=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=1,
+	pdfstartview=Fit,
+	pdfpagemode=UseOutlines,
+	pdfpagelayout=TwoPageRight
 	}
 }
 
 
 \usepackage[firstyear=1992,lastyear=2017]{moderntimeline}
-%\tlmaxdates{1999}{2012}
+\tlmaxdates{1992}{2017}
 \tlwidth{0.8ex}
 
 
@@ -122,7 +135,7 @@
 \definecolor{dark-gray}{gray}{0.30}
 
 \newcommand*{\myquote}[2]{%
-   \quote{\small\raggedright\color{dark-gray}\itshape #1 \\ \footnotesize #2}}
+   \quote{\small\color{dark-gray}\itshape #1 \\ \footnotesize #2}}
 
 % Hobbies
 \newcommand*{\cvhobby}[2]{\cvline{#1}{\small #2}}
@@ -138,4 +151,3 @@
 
 \newcommand*{\developer}{\footnotemark[1]}
 \newcommand*{\contributor}{\footnotemark[2]}
-

@@ -1,3 +1,6 @@
+%!TEX encoding = UTF-8
+%!TEX program = xelatex
+%!TEX spellcheck = it_IT
 %% start of file `VincenzoNesta_it.tex'.
 %% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
 %% Forked in 2014 from github repository https://github.com/raphink/CV  - Raphaël Pinson (raphink@gmail.com).
@@ -9,8 +12,12 @@
 
 % Version: 20170120-1
 
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
 %tipo documento
-\documentclass[11pt,a4paper]{moderncv}
+\documentclass[11pt,a4paper,nolmodern]{moderncv}
 
 %stili, macro e opzioni personalizzate
 \usepackage{VincenzoNesta}
@@ -33,15 +40,18 @@
 \title{Curriculum Vit\ae}
 
 \extrainfo{%
-\twitter~\httplink{www.twitter.com/vinnes}\\
-\telegram~\httplink{t.me/vinnes73}\\
-\faLinkedinSquare~\httplink{www.linkedin.com/in/vinnes}\\
-%\faGithub~\httplink{www.github.com/vinnes}\\
-nato a Brindisi il 26/11/1973}%
+%\telegram~\httplink{t.me/vinnes73}\\
+social:~~~\href{https://www.linkedin.com/in/vinnes}{\linkedin}~~~%
+\href{https://www.github.com/vinnes}{\github}~~~%
+\href{https://www.twitter.com/vinnes}{\twitter}~~\textbf{vinnes}\\
+nato a Brindisi il 26/11/1973\\
+automunito, patente B}%
 
 
 %citazione
-%\myquote{\ldots l'aggetto delle cornici sbalzerà di la dal piombo le gocce, e con questo riguardo si verranno a mantenere salde le muraglie di mattoni.}{M. Vitruvio Pollione - \itshape De Architectura}
+%\myquote{\ldots l'aggetto delle cornici sbalzerà di la dal piombo le gocce, e con questo\\
+%riguardo si verranno a mantenere salde le muraglie di mattoni.}{\textsc{M. Vitruvio Pollione - De Architectura}}
+
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
 %----------------------------------------------------------------------------------
@@ -49,8 +59,10 @@ nato a Brindisi il 26/11/1973}%
 %----------------------------------------------------------------------------------
 \begin{document}
 
-%%Set fonts
-%\setmainfont{Minion Pro}
+%%Set Adobe fonts 
+\setmainfont{Minion Pro}[
+	BoldFont={MinionPro-Bold.otf}
+]
 \setsansfont{Myriad Pro}
 
 \hyphenpenalty=10000
@@ -144,7 +156,7 @@ Buildings);
 % Restore normal labels
 %\tltext{\scriptsize}
 
-%\pagebreak
+%\pagebreak  %necessary in the sintetic cv (2 pages), remove otherwise
 
 \section{Esperienze formative}
 
@@ -211,6 +223,7 @@ Buildings);
 
 %informazione estese prese da capacita-competenze.text
 %commentare per avere il curriculum sintetico
+%\pagebreak
 %\input{capacita-competenze}
 
 

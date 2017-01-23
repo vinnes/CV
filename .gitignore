@@ -1,11 +1,14 @@
 #ignoro i file intermedi di LaTeX (preso da http://www.guitex.org/home/images/doc/GuideGuIT/guidagit.pdf)
-*. log
-*. pdf
-*. blg
-*. bbl
-*. aux
-* - blx . bib
-*. out
+*.log
+*.blg
+*.bbl
+*.aux
+*.out
+*.synctex.gz
 *~
 #ignoro i file di backup
 *.backup
+#ignore file di sublime
+*.sublime-project
+*.sublime-workspace
+
