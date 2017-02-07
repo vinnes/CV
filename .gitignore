@@ -5,10 +5,15 @@
 *.aux
 *.out
 *.synctex.gz
+*.synctex.gz(busy)
 *~
 #ignoro i file di backup
 *.backup
 #ignore file di sublime
 *.sublime-project
 *.sublime-workspace
-
+#ignore file di makelatex
+*.fdb_latexmk
+*.fls
+#ignoro directory
+tmp/

@@ -9,6 +9,14 @@ pdf: $(PDF_TARGETS)
 
 html: $(HTML_TARGETS) 
 
+gh-pages: html
+	mv $(HTML_TARGETS) /tmp
+	git checkout gh-pages
+	cd /tmp && mv $(HTML_TARGETS) $(CURDIR)
+	git commit -a -m "Regenerate gh-pages"
+	git push
+	git checkout master
+
 itacv: VincenzoNesta_it.pdf
 engcv: VincenzoNesta_en.pdf
 
