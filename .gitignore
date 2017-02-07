@@ -1,4 +1,4 @@
-#ignoro i file intermedi di LaTeX (preso da http://www.guitex.org/home/images/doc/GuideGuIT/guidagit.pdf)
+##ignoro i file intermedi di LaTeX (preso da http://www.guitex.org/home/images/doc/GuideGuIT/guidagit.pdf)
 *.log
 *.blg
 *.bbl
@@ -7,13 +7,28 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *~
-#ignoro i file di backup
+
+##ignoro i file di backup
 *.backup
-#ignore file di sublime
+
+##ignore file di sublime
 *.sublime-project
 *.sublime-workspace
-#ignore file di makelatex
+
+##ignore file di makelatex
 *.fdb_latexmk
 *.fls
-#ignoro directory
+
+##ignoro directory
 tmp/
+
+## Intermediate documents:
+*.dvi
+*-converted-to.*
+# these rules might exclude image files for figures etc.
+*.ps
+*.eps
+*.pdf
+
+## Generated if empty string is given at "Please type another file name for output:"
+.pdf
