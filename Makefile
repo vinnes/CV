@@ -1,4 +1,4 @@
-LANGS= it en
+LANGS= it
 TARGETS=$(addprefix VincenzoNesta_,$(LANGS))
 PDF_TARGETS=$(addsuffix .pdf,$(TARGETS))
 HTML_TARGETS=$(addsuffix .html,$(TARGETS))
