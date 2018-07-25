@@ -1,0 +1,799 @@
+#. interlinea
+#. type: Plain text
+#: VincenzoNesta.tex:33
+msgid "{0.9}"
+msgstr ""
+
+#. type: title{#2}
+#: VincenzoNesta.tex:44
+msgid "Curriculum Vit\\ae"
+msgstr ""
+
+#. \telegram~\httplink{t.me/vinnes73}\#. type: Plain text
+#: VincenzoNesta.tex:52
+msgid ""
+"{social:~~~\\href{https://www.linkedin.com/in/vinnes}{\\linkedin}~~~"
+"\\href{https://www.github.com/vinnes}{\\github}~~~\\href{https://www.twitter."
+"com/vinnes}{\\twitter}~~\\textbf{vinnes}\\\\ nato a Brindisi il 26/11/1973\\"
+"\\ automunito, patente B}"
+msgstr ""
+
+#. %Set Adobe fonts 
+#. type: document
+#: VincenzoNesta.tex:72
+msgid ""
+"\\setmainfont[Mapping=tex-text, BoldFont={Minion Pro Bold} ]{Minion Pro}"
+msgstr ""
+
+#. type: document
+#: VincenzoNesta.tex:74
+msgid "=10000"
+msgstr ""
+
+#. type: section{#2}
+#: VincenzoNesta.tex:82
+msgid "Esperienze professionali"
+msgstr ""
+
+#. oppure cambio i punti di ancoraggio
+#. questo mi serve per spostare in basso la data iniziale per evitare che finisca sulla barra
+#.  it was null
+#. set the anchor as you prefer
+#. --------
+#. type: document
+#: VincenzoNesta.tex:105
+msgid ""
+"[2][south west]{\\tikzset{ tl@startyear/.style={ font=#2, name=tl@startyear, "
+"below=1pt, inner xsep=0pt, anchor=#1, } } } \\tltextstart[north]"
+"{\\scriptsize} \\tltextend[south]{\\scriptsize}"
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:113
+msgid "Tecnico del Risparmio Energetico / Sviluppatore web"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:113
+msgid ""
+"da giugno 2016 a dicembre 2017 in mobilit volontaria ai sensi della L. "
+"223/91."
+msgstr ""
+
+#. type: tightitemize
+#: VincenzoNesta.tex:113
+msgid ""
+"Sviluppo di un'applicazione web-based (\\href{https://github.com/vinnes/"
+"openstudio_nodejs}{Retrofit Manager}) per semplificare il retrofit "
+"energetico di edifici civili, commerciali ed industriali; \\item Diagnosi "
+"energetiche con l'individuazione degli interventi di riqualificazione "
+"energetica degli edifici; \\item Analisi e studio degli interventi con "
+"individuazione dei tempi di ritorno degli investimenti; \\item "
+"Certificazione energetica di edifici privati."
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:122
+msgid "Certificatore Energetico"
+msgstr ""
+
+#. type: tldatecventry{#4}
+#: VincenzoNesta.tex:122 VincenzoNesta.tex:184 VincenzoNesta.tex:192
+#: VincenzoNesta.tex:194 VincenzoNesta.tex:208
+msgid "Firenze"
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:128 VincenzoNesta.tex:149
+msgid "Direttore Tecnico"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:128
+msgid ""
+"In cassa integrazione guadagni straordinaria per crisi e ristrutturazione "
+"aziendale."
+msgstr ""
+
+#. type: tightitemize
+#: VincenzoNesta.tex:128
+msgid ""
+"Redazione delle certificazioni energetiche di alcuni edifici privati; \\item "
+"Studio e report dei possibili interventi di riqualificazione energetica."
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:140
+msgid "Responsabile della Contabilit"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:140
+msgid ""
+"Contabilit attiva e passiva di importanti Centri Commerciali realizzati in "
+"Toscana per UNICOOP Firenze:"
+msgstr ""
+
+#. type: tightitemize
+#: VincenzoNesta.tex:140
+msgid ""
+"dal 2005 al 2007 centro comm.le CENTRO*Empoli; \\item dal 2007 al 2009 "
+"centro comm.le PARCO*Prato; \\item dal 2009 al 2011 magazzino logistico "
+"Centro Freschi di Pontedera; \\item Contabilit attiva verso la committente "
+"per un totale di oltre \\textbf{155} milioni di euro; \\item Contabilit "
+"passiva verso fornitori e subappaltatori per un totale di circa "
+"\\textbf{128} milioni di euro; \\item Studio e redazione di varianti in "
+"corso d'opera per circa \\textbf{25} milioni di euro; \\item Addetto al "
+"controllo di gestione, con procedure per la rilevazione di S.I.L. e cost-"
+"control sviluppate personalmente; \\item Assistente di cantiere, con "
+"funzioni di ripreventivazione del budget di commessa, preventivazione "
+"acquisti, controllo manodopera, preposto alla sicurezza."
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:149
+msgid "Gestione globale delle Commesse:"
+msgstr ""
+
+#. type: tightitemize
+#: VincenzoNesta.tex:149
+msgid ""
+"Lavori di completamento delle sistemazioni esterne dell'I.P.A. di Santa "
+"Cesarea Terme, Stazione Appaltante Provincia di Lecce; \\item Lavori per la "
+"costruzione di un ``centro gestionale e posto di ristoro'' nella Z.I. di "
+"Brindisi, Stazione Appaltante S.I.S.R.I. Brindisi; \\item Lavori di "
+"costruzione della ``sede decentrata degli uffici comunali'' di Gallipoli, "
+"tramite procura speciale dell'impresa Polistrade - Campi Bisenzio (FI); "
+"\\item Lavori di costruzione dell'I.P. Alberghiero di Santa Cesarea Terme, "
+"tramite procura speciale del Consorzio Cooperativo Costruzioni - Bologna; "
+"\\item Addetto al controllo di gestione per tutti i cantieri afferenti alla "
+"direzione fuori sede del Consorzio Etruria di Lecce per un importo totale "
+"dei lavori di oltre \\textbf{40} milioni di euro."
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:159
+msgid "Assistente di cantiere"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:159
+msgid ""
+"Tecnico di cantiere, gestione maestranze e mezzi, contabilit di cantiere, "
+"preventivazione acquisti nei seguenti lavori di restauro, cat. OG2, nel "
+"centro storico di Lecce, Stazione Appaltante Comune di Lecce:"
+msgstr ""
+
+#. type: tightitemize
+#: VincenzoNesta.tex:159
+msgid ""
+"Ex Conservatorio di S.Anna, Lecce; \\item Ex Monastero dei Teatini, Lecce; "
+"\\item Recupero di Palazzo Turrisi-Palumbo, ditta appaltatrice Faesulae; "
+"\\item Lavori di restauro dell'ex Monastero degli Olivetani, Stazione "
+"Appaltante Universit degli Studi di Lecce; \\item Addetto all'uffico gare "
+"con lo studio di circa venti gare d' appalto tra il 2000 e il 2001; \\item "
+"Progettazione, preventivazione e successiva gestione del parco hardware e "
+"software delle rete di computer degli uffici (6 postazioni + 1 server)."
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:164
+msgid "Disegnatore CAD"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:164
+msgid ""
+"Collaboratore esterno alla societ operante nel settore dei lavori stradali "
+"per l'ampliamento della s.s. n. 7 Brindisi-Taranto - III lotto:"
+msgstr ""
+
+#. type: tightitemize
+#: VincenzoNesta.tex:164
+msgid ""
+"Rilievi topografici, restituzione su CAD, produzione degli allegati "
+"contabili e computi metrici per la redazione della contabilit dei lavori "
+"eseguiti da allegare ai S.A.L.;"
+msgstr ""
+
+#. type: section{#2}
+#: capacita-competenze.tex :2
+msgid "Capacit e competenze"
+msgstr ""
+
+#. type: subsection{#2}
+#: capacita-competenze.tex :7
+msgid "Competenze comunicative"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :7
+msgid ""
+"Buone capacit di comunicare efficacemente con il mio gruppo di lavoro, con i "
+"clienti (Enti pubblici o committenti privati, Direttori dei Lavori) e con le "
+"``controparti'' (ditte subappaltrici o fornitrici).  Preferisco sempre "
+"mettere in chiaro, sia verbalmente che mettendolo nero su bianco, "
+"problematiche, aspetti tecnico/economici e tutto quanto di rilevante per la "
+"gestione ordinata del rapporto di lavoro.  Nonostante ritengo di essere una "
+"persona pragmatica, sono sempre in grado di ascoltare ed entrare in empatia "
+"con colleghi, utenti e clienti."
+msgstr ""
+
+#. type: subsection{#2}
+#: capacita-competenze.tex :14
+msgid "Competenze organizzative e gestionali"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :14
+msgid ""
+"In qualit di direttore tecnico di cantiere ho gestito con efficacia la "
+"realizzazione di una decina di importanti appalti pubblici in Puglia, "
+"gestendo pi cantieri contemporaneamente.\\newline Ho coordinato le "
+"maestranze (circa 20 operai con 3 capicantiere), i fornitori ed i "
+"subappaltatori con decisione, anche in situazioni ambientali difficili. "
+"Efficaci sono stati i rapporti con le DD.LL. e la collaborazione con gli "
+"impiegati di sede.\\newline Ho piena autonomia organizzativa ed ho sempre "
+"conquistato la fiducia dei direttori di produzione con cui ho lavorato."
+"\\newline Nei grandi appalti privati di cui sono stato il responsabile della "
+"contabilit ho avuto collaboratori giovani che ho sempre spronato a dare il "
+"massimo e contribuito a far crescere professionalmente.\\newline Organizzo "
+"il mio lavoro con ordine e precisione ed avendo buone capacit di problem "
+"solving riesco ad adattarmi bene ai cambiamenti ed alle pressioni esterne."
+msgstr ""
+
+#. type: subsection{#2}
+#: capacita-competenze.tex :33
+msgid "Capacit professionali"
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :33 :66
+msgid "Sviluppo software e Web"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :33
+msgid ""
+"- Uso avanzato di fogli di calcolo e utilizzo di procedure per l'office "
+"automation attraverso macro o script in VBA, AppleScript, Bash scripting "
+"language;\\newline - Sviluppo di semplici programmi nei linguaggi Python, "
+"Perl e Ruby;\\newline - Uso di programmi per il controllo versione "
+"Subversion (SVN) e Git e di repository software remoti (GitHub);\\newline - "
+"Installazione, configurazione e gestione di file/media/web server tramite i "
+"pi diffusi software (Apache, MySQL, PHP, Perl) e stack (LAMP/XAMPP);"
+"\\newline - Realizzazione di siti web dinamici con le moderne tecnologie "
+"HTML5, CSS e Javascript oltre a poter implementare e gestire suite di CMS "
+"(Wordpress, Joomla!)."
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :33
+msgid "Certificazioni e Diagnosi Energetiche"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :33
+msgid ""
+"- Audit energetico degli edifici, con acquisizione dati catastali ed "
+"esecuzione di accurato sopralluogo e rilievo. Analisi mirata dell'involucro "
+"edilizio e degli impianti.\\newline - Inserimento dati e calcolo dei vari "
+"indici per determinare l'indice di prestazione energetica globale EP\\ped{gl,"
+"nren} mediante software certificato C.T.I. Emissione, consegna e deposito "
+"dell'APE.\\newline - Valutazione, studio ed individuazione degli interventi "
+"di riqualificazione energetica, dei risparmi economici ottenibili e dei "
+"tempi di ritorno degli investimenti.\\newline - Valutazioni su progettazione/"
+"integrazione impiantistica con impianti da F.E.R. e redazione pratiche per "
+"accesso agli incentivi fiscali.\\newline - Analisi e calcolo dei ponti "
+"termici e studio degli ombreggiamenti. Analisi parametriche in regime "
+"dinamico."
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :33
+msgid "Direzione di Cantiere"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :33
+msgid ""
+"- Gestione globale della commessa, con organizzazione del cantiere, gestione "
+"manodopera e mezzi, programmazione dei lavori.\\newline - Ottima conoscenza "
+"dei materiali da costruzione e delle principali tecniche costruttive oltre "
+"che di restauro conservativo e consolidamento.\\newline - Preventivazione "
+"acquisti, conoscenza delle normative sia dei lavori privati che pubblici, "
+"corretti rapporti con la committenza, DD.LL. e responsabili del "
+"procedimento, gestione efficace di subappaltatori e fornitori."
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :33
+msgid "Contabilit di Cantiere"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :33
+msgid ""
+"- Uso degli strumenti di misura, tenuta di brogliacci delle misure, rapidit "
+"nelle operazioni di rilevo in cantiere, uso avanzato di fogli di calcolo e "
+"di software di contabilit, tenuta dei registri contabili.\\newline - Studio "
+"e redazione dei Capitolati Speciali d'Appalto, individuazione dei lavori in "
+"variante, iscrizione di riserve, analisi dei prezzi, formazione di liste per "
+"lavori in economia, studio gare di appalto."
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :33
+msgid "Controllo di Gestione"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :33
+msgid ""
+"Formazione del budget di commessa e del quadro economico di riferimento, "
+"controllo costi ed aggiornamento costante del quadro economico.\\newline - "
+"Individuazione dei ratei professionisti/fornitori/subappaltatori, "
+"individuazione S.I.L., previsone emissione S.A.L., redazione del piano "
+"finanziario e del cash-flow, individuazione Margine Operativo Lordo, "
+"reportistica avanzata sull'andamento lavori."
+msgstr ""
+
+#. type: subsection{#2}
+#: capacita-competenze.tex :66
+msgid "Competenza digitale"
+msgstr ""
+
+#. type: cvcomputer{#1}
+#: capacita-competenze.tex :66 :74
+msgid "Sistemi Operativi"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Ottima conoscenza dei sistemi operativi PC Windows 7/10, Apple Mac OSX/MacOS "
+"nonch GNU/Linux (principalmente Ubuntu e derivate), quest'ultimo anche a "
+"livello di amministrazione.  Conoscenza dei sistemi operativi mobile Android "
+"ed iOS."
+msgstr ""
+
+#. type: cvcomputer{#3}
+#: capacita-competenze.tex :66 :74
+msgid "Office"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Padronanza dei principali programmi da ufficio (Microsoft Word, Excel e "
+"PowerPoint, Apple Pages e Numbers, Open/LibreOffice), di grafica e desktop "
+"publishing (GIMP, Inkscape, Photoshop, \\LaTeX)."
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :66
+msgid "Disegno CAD, Progettazione BIM"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Esperienza ultradecennale con gli applicativi per il disegno tecnico "
+"assistito CAD/CAM (AutoCAD, DraftSight), la progettazione BIM (ArchiCAD) o "
+"la modellazione 3D (Trimble Sketchup, 3DStudio, Revit)."
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :66
+msgid "Database, Contabilit lavori"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Notevole esperienza anche per il project management (MS Project), per il "
+"DataBase Management System (Access, MySQL, MongoDB) e per la contabilit dei "
+"lavori edili (Primus)."
+msgstr ""
+
+#. type: cvcomputer{#3}
+#: capacita-competenze.tex :66 :74
+msgid "Hardware"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Inoltre ho buone conoscenze di hardware (provvedo personalmente "
+"all'assemblaggio dei miei PC) e configurazione di reti di computer, avendo "
+"provveduto pi volte alla pianificazione e implementazione delle workstation, "
+"dei server e degli apparati di rete nei cantieri ed in ambienti SOHO."
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Ho acquisito competenze di programmazione, principalmente in ambiente GNU/"
+"Linux, che spaziano dai linguaggi di scripting (Bash), a linguaggi "
+"interpretati come Python, Perl e Ruby.  Uso abitualmente editor ed IDE per "
+"lo sviluppo software avanzati (VisualStudio Code, Eclipse), scelgo di usare "
+"software principalmente open-source quando possibile, possiedo familiarit "
+"con la compilazione di programmi, con le moderne tecniche web (HTML5, CSS, "
+"Javascript) ed i principali framework (BootStrap, AngularJS) per la "
+"realizzazione di siti web responsive e mobile-first."
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :66
+msgid "Social"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Partecipo a forum di discussione e webinar tecnici nell'ambito della "
+"pianificazione energetica, mi aggiorno costantemente su novit, prodotti e "
+"tecniche relative all'ICT.  Sono presente ed attivo sui principali siti "
+"social quali Facebook, Twitter, LinkedIn, Instagram, Github, Google+, quasi "
+"sempre con il nickname ``vinnes''."
+msgstr ""
+
+#. type: cvcomputer{#3}
+#: capacita-competenze.tex :66 :74
+msgid "Certificazione energetica"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Ho acquisito padronanza dei software per la certificazione energetica degli "
+"edifici (ENEA DOCET vers. 3, Aermec MC11300), per il calcolo dei ponti "
+"termici (LBNL Therm)."
+msgstr ""
+
+#. type: cvline{#1}
+#: capacita-competenze.tex :66
+msgid "Energy Model, Retrofit"
+msgstr ""
+
+#. type: cvline{#2}
+#: capacita-competenze.tex :66
+msgid ""
+"Ho approfondito la conoscenza di programmi per il ``whole building energy "
+"modeling'' e per la simulazione energetica in regime dinamico (N.R.E.L. "
+"Openstudio ed EnergyPlus), in particolare la possibilit di usare le API "
+"previste nel Software Development Kit di Openstudio per la realizzazione di "
+"un frontend web in HTML5 (lato client) che si interfacci, tramite bindings "
+"Javascript, ad una versione di Openstudio compilata con il supporto a NodeJS "
+"(lato server)."
+msgstr ""
+
+#. type: subsection{#2}
+#: capacita-competenze.tex :74
+msgid "Competenze informatiche"
+msgstr ""
+
+#. type: cvcomputer{#2}
+#: capacita-competenze.tex :74
+msgid "Microsoft Windows, Apple macOS/OSX/iOS, GNU/Linux, Android"
+msgstr ""
+
+#. type: cvcomputer{#4}
+#: capacita-competenze.tex :74
+msgid ""
+"Word, Excel, Pages, Numbers, Open/LibreOffice, GIMP, Inkscape, Photoshop, "
+"\\LaTeX"
+msgstr ""
+
+#. type: cvcomputer{#1}
+#: capacita-competenze.tex :74
+msgid "Disegno CAD, Progettazione~BIM"
+msgstr ""
+
+#. type: cvcomputer{#2}
+#: capacita-competenze.tex :74
+msgid "AutoCAD, DraftSight, Revit"
+msgstr ""
+
+#. type: cvcomputer{#3}
+#: capacita-competenze.tex :74
+msgid "Modellazione 3D"
+msgstr ""
+
+#. type: cvcomputer{#4}
+#: capacita-competenze.tex :74
+msgid "ArchiCAD, Trimble Sketchup, 3DS Max, Blender"
+msgstr ""
+
+#. type: cvcomputer{#1}
+#: capacita-competenze.tex :74
+msgid "Project Management"
+msgstr ""
+
+#. type: cvcomputer{#2}
+#: capacita-competenze.tex :74
+msgid "Microsoft Project, Planner"
+msgstr ""
+
+#. type: cvcomputer{#3}
+#: capacita-competenze.tex :74
+msgid "DataBase"
+msgstr ""
+
+#. type: cvcomputer{#4}
+#: capacita-competenze.tex :74
+msgid "Microsoft Access, MySQL, MongoDB, SQLite"
+msgstr ""
+
+#. type: cvcomputer{#1}
+#: capacita-competenze.tex :74
+msgid "Contabilit\\`a dei lavori"
+msgstr ""
+
+#. type: cvcomputer{#2}
+#: capacita-competenze.tex :74
+msgid "ACCA Primus, STR"
+msgstr ""
+
+#. type: cvcomputer{#4}
+#: capacita-competenze.tex :74
+msgid "Gestione di reti di computer, assemblaggio e configurazione PC"
+msgstr ""
+
+#. type: cvcomputer{#1}
+#: capacita-competenze.tex :74
+msgid "Sviluppo software"
+msgstr ""
+
+#. type: cvcomputer{#2}
+#: capacita-competenze.tex :74
+msgid "Bash scripting language, Python, Perl, Ruby, JavaScript, Nodejs"
+msgstr ""
+
+#. type: cvcomputer{#4}
+#: capacita-competenze.tex :74
+msgid "CNR Docet, ProCasaClima, Aermec MC11300, Namirial Termo"
+msgstr ""
+
+#. type: cvcomputer{#1}
+#: capacita-competenze.tex :74
+msgid "Ponti termici, Energy~Model, Retrofit"
+msgstr ""
+
+#. type: cvcomputer{#2}
+#: capacita-competenze.tex :74
+msgid "LBL Therm, EERE EnergyPlus, NREL Openstudio"
+msgstr ""
+
+#. type: cvcomputer{#3}
+#: capacita-competenze.tex :74
+msgid "Energie rinnovabili"
+msgstr ""
+
+#. type: cvcomputer{#4}
+#: capacita-competenze.tex :74
+msgid "RETScreen, fogli di calcolo MyGreenBuildings"
+msgstr ""
+
+#. type: section{#2}
+#: VincenzoNesta.tex:178
+msgid "Esperienze formative"
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:180
+msgid "E-QUalification of the Energy Manager"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:180
+msgid ""
+"Corso di formazione continua per chi lavora nel settore energia. Formazione "
+"iniziale per avvicinarsi alla professione di Tecnico esperto in gestione "
+"dellenergia. Corso articolato in 10 moduli della durata complessiva di 100 "
+"ore, erogato attraverso la piattaforma ENEA e-LEARN."
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:182
+msgid ""
+"Financing the energy renovation of residential buildings through soft loans "
+"\\& third-party investment"
+msgstr ""
+
+#. type: tldatecventry{#4}
+#: VincenzoNesta.tex:182
+msgid "online"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:184
+msgid "Corso Base per Progettisti CasaClima"
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:186
+msgid "CERT.E. Corso per Certificatore Energetico"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:186
+msgid ""
+"Corso della durata complessiva di 327 ore di cui 140 di stage. Normativa, "
+"fondamenti di fisica tecnica, materiali edili, costruzioni e isolamenti, "
+"impianti, metodologie di misurazione-calcolo, Project work."
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:188
+msgid "Corso in Bioedilizia e Bioarchitettura"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:188
+msgid ""
+"Bioedilizia, strategie passive per il risparmio energetico in edilizia, "
+"certificazione energetica degli edifici."
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:190
+msgid ""
+"Corso per aggiornamento di formazione dei lavoratori nel settore costruzioni "
+"- Rischio alto"
+msgstr ""
+
+#. type: tldatecventry{#4}
+#: VincenzoNesta.tex:190 VincenzoNesta.tex:198 VincenzoNesta.tex:200
+#: VincenzoNesta.tex:202
+msgid "Montelupo F.no (FI)"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:192
+msgid "Corso formativo in CAD 2D - Avanzato"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:194
+msgid "Corso di Tecniche di conduzione e controllo di cantieri edili"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:196
+msgid ""
+"Corso su Sistemi geotermici a bassa entalpia per applicazioni a pompa di "
+"calore"
+msgstr ""
+
+#. type: tldatecventry{#5}
+#: VincenzoNesta.tex:196
+msgid "Bastia Umbra (PG)"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:198
+msgid "Corso per Addetti del Servizio di Prevenzione e Protezione"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:200
+msgid "Corso di formazione per la prevenzione incendi"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:202
+msgid "Corso di formazione teorico-pratico per addetti al primo soccorso"
+msgstr ""
+
+#. type: tlcventry{#3}
+#: VincenzoNesta.tex:204
+msgid "Studente in Ingegneria Edile"
+msgstr ""
+
+#. type: tlcventry{#7}
+#: VincenzoNesta.tex:204
+msgid ""
+"Frequenza di quindici corsi del Corso di Laurea, di cui undici superati gli "
+"esami.\\\\Votazione media 28/30."
+msgstr ""
+
+#. type: section{#2}
+#: VincenzoNesta.tex:206
+msgid "Certificazioni"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:208
+msgid ""
+"Esami di Stato per l'abilitazione all'esercizio della libera professione"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:210
+msgid ""
+"Tecnico della progettazione ed elaborazione di sistemi di risparmio "
+"energetico"
+msgstr ""
+
+#. type: tldatecventry{#4}
+#: VincenzoNesta.tex:210
+msgid "Empoli (FI)"
+msgstr ""
+
+#. type: tldatecventry{#2}
+#: VincenzoNesta.tex:212
+msgid "Diploma di Maturit Tecnica per Geometri"
+msgstr ""
+
+#. type: tldatecventry{#4}
+#: VincenzoNesta.tex:212
+msgid "Brindisi"
+msgstr ""
+
+#. type: section{#2}
+#: VincenzoNesta.tex:218
+msgid "Lingue"
+msgstr ""
+
+#. type: cvlanguage{#1}
+#: VincenzoNesta.tex:218
+msgid "Italiano"
+msgstr ""
+
+#. type: cvlanguage{#2}
+#: VincenzoNesta.tex:218
+msgid "Nativo"
+msgstr ""
+
+#. type: cvlanguage{#3}
+#: VincenzoNesta.tex:218
+msgid "Madrelingua"
+msgstr ""
+
+#. type: cvlanguage{#1}
+#: VincenzoNesta.tex:218
+msgid "Inglese"
+msgstr ""
+
+#. type: cvlanguage{#2}
+#: VincenzoNesta.tex:218
+msgid "Buon livello"
+msgstr ""
+
+#. type: cvlanguage{#3}
+#: VincenzoNesta.tex:218
+msgid "Lettura abituale di testi tecnici in inglese, pratica occasionale"
+msgstr ""
+
+#. type: cvlanguage{#1}
+#: VincenzoNesta.tex:218
+msgid "Francese"
+msgstr ""
+
+#. type: cvlanguage{#2}
+#: VincenzoNesta.tex:218
+msgid "Livello intermedio"
+msgstr ""
+
+#. type: cvlanguage{#3}
+#: VincenzoNesta.tex:218
+msgid "Studiato 3 anni a scuola, pratica occasionale"
+msgstr ""
+
+#. liberatoria privacy
+#. de-commentare la seguente riga nel curriculum sintetico
+#. \vspace*{0.25cm}
+#. type: document
+#: VincenzoNesta.tex:248
+msgid ""
+"\\tiny\\vspace{\\fill} \\footnotesize\\noindent\\centering Autorizzo il "
+"trattamento dei dati personali ai sensi del D.Lgs. 196/2003."
+msgstr ""
+
+#. type: document
+#: VincenzoNesta.tex:250
+msgid ""
+"Empoli, \\today\\hfill In fede:\\raisebox{-0.75cm}{\\includegraphics[scale=1]"
+"{img/firma}}"
+msgstr ""

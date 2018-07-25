@@ -1,0 +1,38 @@
+% po4a: command title [_]{_}
+
+% po4a: command -date {_}
+% po4a: command -textbf {_}
+
+% po4a: command hypersetup {}
+% po4a: command tableofcontents []
+
+% po4a: command newcommand {}{}
+% po4a: command renewcommand {}
+
+% po4a: command mode 
+% po4a: command usepackage []{}
+
+% po4a: environment tightitemize {}
+
+% po4a: command *linespread
+% po4a: command *extrainfo
+% po4a: comman *setmainfont []{}
+% po4a: command *setsansfont []{}
+% po4a: command *hyphenpenalty
+% po4a: command *tlsince {}
+% po4a: command *tikzset {}
+% po4a: command *tltextstart [][]{}
+% po4a: command *tlcventry {}{}{_}{}{}{}{_}
+% po4a: command *tldatecventry {}{_}{}{_}{_}{}{_}
+% po4a: command *cvline {_}{_}
+% po4a: command *cvcomputer {_}{_}{_}{_}
+% po4a: command *cvlanguage {_}{_}{_}
+% po4a: command *newline
+
+
+
+
+
+
+
+

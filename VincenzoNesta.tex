@@ -1,9 +1,9 @@
 %!TEX encoding = UTF-8
 %!TEX program = xelatex
 %!TEX spellcheck = it_IT
-%% start of file `VincenzoNesta_it.tex'.
+%% start of file `VincenzoNesta.tex'.
 %% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
-%% Forked in 2014 from github repository https://github.com/raphink/CV  - Raphaël Pinson (raphink@gmail.com).
+%% Forked in 2014 from github repository https://github.com/raphink/CV  - Raphael Pinson (raphink@gmail.com).
 %% Modified in 2017 by Vincenzo Nesta (vincenzo.nesta@gmail.com).
 %
 % This work may be distributed and/or modified under the
@@ -19,11 +19,14 @@
 %tipo documento
 \documentclass[11pt,a4paper,nolmodern]{moderncv}
 
-%stili, macro e opzioni personalizzate
+%stili, macro e opzioni personalizzate da VincenzoNesta.sty
 \usepackage{VincenzoNesta}
 
 %lingua
 \usepackage[italian]{babel}
+
+%extra
+\usepackage{xltxtra}
 
 %interlinea
 \linespread{0.9}
@@ -49,8 +52,8 @@ automunito, patente B}%
 
 
 %citazione
-%\myquote{\ldots l'aggetto delle cornici sbalzerà di la dal piombo le gocce, e con questo\\
-%riguardo si verranno a mantenere salde le muraglie di mattoni.}{\textsc{M. Vitruvio Pollione - De Architectura}}
+\myquote{\ldots l'aggetto delle cornici sbalzerà di la dal piombo le gocce, e con questo\\
+riguardo si verranno a mantenere salde le muraglie di mattoni.}{\textsc{M. Vitruvio Pollione - De Architectura}}
 
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -60,14 +63,18 @@ automunito, patente B}%
 \begin{document}
 
 %%Set Adobe fonts 
-\setmainfont{Minion Pro}[
-	BoldFont={MinionPro-Bold.otf}
-]
-\setsansfont{Myriad Pro}
+\setmainfont[Mapping=tex-text,
+			BoldFont={Minion Pro Bold}
+			]{Minion Pro}
+\setsansfont[Mapping=tex-text,
+			BoldFont={Myriad Pro Bold}
+			]{Myriad Pro}
 
 \hyphenpenalty=10000
 
 \maketitle
+
+
 
 %rimuovere i numeri di pagina
 \thispagestyle{empty}
@@ -160,8 +167,6 @@ Buildings);
 % Restore normal labels
 %\tltext{\scriptsize}
 
-%\pagebreak  %necessary in the sintetic cv (2 pages), remove otherwise
-
 %informazione estese prese da capacita-competenze.text
 %commentare per avere il curriculum sintetico
 
@@ -234,14 +239,14 @@ Buildings);
 %\bibliographystylemisc{plain}
 %\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
 
-%liberatoria privacy
+%liberatoria privacy aggiornata al GDPR
 %de-commentare la seguente riga nel curriculum sintetico
 \tiny\vspace{\fill}
 \footnotesize\noindent\centering
-Autorizzo il trattamento dei dati personali ai sensi del D.Lgs. 196/2003.
+Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. n° 196/2003 e dell'art. 13 del Regolamento (UE) 2016/679.
 %\vspace*{0.25cm}
 
-Empoli, \today\hfill  In fede:\raisebox{-0.75cm}{\includegraphics[scale=1]{firma}}
+Empoli, \today\hfill  In fede:\raisebox{-0.75cm}{\includegraphics[scale=1]{img/firma}}
 
 %in caso di curriculum esteso metto liberatoria, data e firma non in fondo
 \vfill
